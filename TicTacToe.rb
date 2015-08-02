@@ -35,6 +35,7 @@ class TicTacToe
 			@theBoard.printBoard
 
 			if @referee.thereIsAWinner "X" then break end
+			if @referee.thereIsAWinner "O" then break end
 			if @referee.boardIsFilledUp then break end
 			
 			#  the second player's turn, exit if the user wants to quit
@@ -43,6 +44,8 @@ class TicTacToe
 			#  print board after the second player's turn
 			@theBoard.printBoard
 
+			
+			if @referee.thereIsAWinner "X" then break end
 			if @referee.thereIsAWinner "O" then break end
 			if @referee.boardIsFilledUp then break end
 		end
