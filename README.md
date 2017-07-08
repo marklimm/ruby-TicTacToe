@@ -1,11 +1,11 @@
 # ruby-TicTacToe
-a ruby implementation of TicTacToe
+a command-line based ruby game with AI programming logic included 
 
-This is a command-line Tic-Tac-Toe game that I worked on back in 2011 while  learning ruby for the first time.  
+This is a command-line Tic-Tac-Toe game that I worked on back in 2011 while learning ruby for the first time.  
 
-The player is presented with the option to go first or not, and the computer plays against the player.  
+The player is presented with the option to go first or not, and the computer plays against the player.  The Tic-Tac-Toe board is drawn to the command line after each turn
 
-Implementing the AI logic was fun to work on.  I found that I had to focus on the end of the game before focusing on the beginning.    The AI logic is summarized as:
+The most fun thing to work on was the computer's strategy for approaching the game.  It involves identifying the current state of the board and making the most advantageous move available.  The AI logic is summarized as:
 
 1.  Can I win the game with a single move?
 2.  Do I need to block in order to prevent my opponent from winning?
